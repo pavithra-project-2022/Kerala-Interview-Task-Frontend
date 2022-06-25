@@ -1,0 +1,117 @@
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 5px;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+@media (min-width:0px) and (max-width:350px) {
+  /* ant-menu ant-menu-root ant-menu-inline ant-menu-dark */
+  .ant-layout-header {
+  left:0 !important;
+ }
+.ant-menu{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 50px;
+}
+.site-layout{
+  margin-right: 100px !important;
+  margin-top: 10px;
+}
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: auto;
+}
+
+.ant-layout-has-sider {
+  padding: 5px !important;
+}
+
+.ant-layout.ant-layout-has-sider {
+  height: 100vh;
+}
+
+@media (min-width:0px) and (max-width:350px) {
+  /* .ant-layout.ant-layout-has-sider {
+    height: 20vh;
+  } */
+  .ant-layout .site-layout{
+    margin-top:40%;
+    width: 300px !important;
+    margin-right: 70% !important;
+    
+  }
+}
+
+@media (min-width:0px) and (max-width:350px) {
+.layoutfull{
+  display: flex !important;
+  flex-direction: column !important;
+}
+/* ant-layout-sider ant-layout-sider-dark sidefull */
+.ant-layout-sider .ant-layout-sider-dark{
+  width: 100%;
+  background-color: #001529  !important;
+}
+.ant-layout-sider-children{
+  width: 300px !important;
+  height: 190px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #001529;
+}
+.ant-layout-header {
+ margin-top:10px;
+}
+
+}
+
+
+.ant-layout-sider {
+  border-radius: 10px !important;
+  padding-top: 10px !important;
+}
+
+.anticon svg {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.ant-layout-header {
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item {
+  padding-left: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.cart-item p {
+  margin-top: 10px;
+  font-weight: bold;
+}
